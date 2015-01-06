@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dcoxall/financier.svg?branch=master)](https://travis-ci.org/dcoxall/financier)
+
 Financier
 =========
 
