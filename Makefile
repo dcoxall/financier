@@ -10,4 +10,8 @@ testdeps: deps
 test: testdeps
 	@go test ${TESTARGS} ./...
 
+docs:
+	@go get golang.org/x/tools/cmd/godoc
+	godoc -http=":6060"
+
 .PHONY : deps testdeps test

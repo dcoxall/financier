@@ -17,6 +17,14 @@ Once installed just use the following to run the test suite...
 
     $ fig run app make
 
+You can also preview the documentation by running...
+
+    $ fig up
+
+Once the server is running you can visit it with:
+
+    $ open http://`boot2docker ip`:6060/pkg/github.com/dcoxall/financier/
+
 Contributing
 ------------
 
