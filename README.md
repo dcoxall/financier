@@ -35,3 +35,7 @@ Contributing
 5. Document all functions and attributes
 6. Ensure you have run go fmt
 7. Create a pull request
+
+[docker]: http://docker.com/
+[boot2docker]: https://github.com/boot2docker/boot2docker
+[fig]: http://fig.sh/
