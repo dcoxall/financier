@@ -13,12 +13,12 @@ import (
 // is effectively the root of everything you do within YNAB.
 type Budget struct {
 	// The budget name/title. This is the value displayed in YNAB.
-	Title    string
+	Title string
 	// The key is an additional attribute that is part of the budget directory
 	// name.
-	Key      string
+	Key string
 	// The path is the fully qualified path to this particular budget
-	Path     string
+	Path string
 	// The budgets particular metadata including the relative name of the data
 	// directory.
 	Metadata BudgetMetadata
