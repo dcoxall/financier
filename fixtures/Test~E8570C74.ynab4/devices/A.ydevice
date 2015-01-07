@@ -1,0 +1,13 @@
+{
+	"knowledge": "A-1754,C-61,D-101",
+	"deviceGUID": "F3435299-8707-71D4-2AB2-693010E45C61",
+	"knowledgeInFullBudgetFile": "A-1754,C-61,D-101",
+	"shortDeviceId": "A",
+	"formatVersion": "1.2",
+	"lastDataVersionFullyKnown": "4.2",
+	"deviceType": "Desktop (AIR), OS:Mac OS 10.10.1",
+	"highestDataVersionImported": null,
+	"friendlyName": "My-Laptop",
+	"YNABVersion": "Desktop version: YNAB 4 v4.3.655 (com.ynab.YNAB4.LiveCaptive), AIR Version: 4.0.0.1390",
+	"hasFullKnowledge": true
+}

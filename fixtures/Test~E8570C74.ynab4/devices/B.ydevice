@@ -1,0 +1,13 @@
+{
+  "YNABVersion": "Android build 3.0.9",
+  "deviceGUID": "3ED76EDE-C36D-3EAB-BF7F-4FC97AD1DEE5",
+  "deviceType": "Android",
+  "formatVersion": "1.2",
+  "friendlyName": "GT-I8190N",
+  "hasFullKnowledge": false,
+  "highestDataVersionImported": "4.2",
+  "knowledge": "A-1754,C-61,D-101",
+  "knowledgeInFullBudgetFile": null,
+  "lastDataVersionFullyKnown": "4.2",
+  "shortDeviceId": "B"
+}
