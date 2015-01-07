@@ -29,11 +29,11 @@ type Device struct {
 // A collection of Devices
 type DeviceList []Device
 
-// When provided with a path to a budget file/directory it will locate all the
+// When provided with a path to a budget data directory it will locate all the
 // registered devices known to the budget.
-func AvailableDevices(budgetPath string) DeviceList {
+func AvailableDevices(budgetDataPath string) DeviceList {
 	devicePaths, _ := filepath.Glob(
-		filepath.Join(budgetPath, "devices", "*.ydevice"),
+		filepath.Join(budgetDataPath, "devices", "*.ydevice"),
 	)
 	devices := make(DeviceList, 0)
 	for _, path := range devicePaths {

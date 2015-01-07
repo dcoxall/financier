@@ -40,7 +40,7 @@ func TestDeviceJSONUnmarshal(t *testing.T) {
 }
 
 func TestAvailableDevices(t *testing.T) {
-	budgetPath, _ := filepath.Abs("./fixtures/Test~E8570C74.ynab4")
+	budgetPath, _ := filepath.Abs("./fixtures/Test~E8570C74.ynab4/data2-69747A23")
 	devices := AvailableDevices(budgetPath)
 	expected := DeviceList{
 		Device{
