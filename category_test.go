@@ -6,8 +6,8 @@ import (
 	"testing"
 )
 
-var (
-	exampleJSON string = `{
+func TestCategoryJSONUnmarshalling(t *testing.T) {
+	exampleJSON := `{
 		"subCategories": [
 			{
 				"masterCategoryId": "A7",
@@ -32,9 +32,6 @@ var (
 		"deleteable": true,
 		"type": "OUTFLOW"
 	}`
-)
-
-func TestCategoryJSONUnmarshalling(t *testing.T) {
 	expected := Category{
 		SubCategories: CategoryList{
 			Category{
